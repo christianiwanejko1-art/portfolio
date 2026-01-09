@@ -1,0 +1,91 @@
+<html>
+  <head>
+    <title>Portfolio</title>
+    <link rel='stylesheet' type="text/css" href="styles.css">
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo"></div>
+      <div class="toggle-button">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <ul class="nav-links">
+        <li><a href=''>Home</a></li>
+        <li><a href='#aboutMe'>About</a></li>
+        <li><a href='#projects'>Projects</a></li>
+      </ul>
+    </div>
+    <div id="layoutHome">
+      <div class="item">
+      </div>
+      <div class="item">
+
+      </div>
+      <div class="item">
+
+      </div>
+      <div class="item">
+
+      </div>
+      <div class="item" id="fifth">
+        <div class="container">
+          <h1>I am a <span class='auto-type'>Coder</span></h1>
+        </div>
+        <h1>Hello, my name is Christian Iwanejko</h1>
+      </div>
+
+      <div class="item" id="ten">
+        <h1>I enjoy creating, developing and learning about the latest technologies</h1>
+        <div id="icons">
+          <a href='https://www.linkedin.com/in/christian-iwanejko-0aab181ab/'><img src="images/linkedinIcon.svg"></a>
+        </div>
+      </div>
+
+    </div>
+    <div id="aboutMe">
+      <div class="about1">
+
+      </div>
+      <div class="about1">
+
+      </div>
+      <div class="about1">
+
+      </div>
+      <div class="about1">
+
+      </div>
+      <div class="about1" id="fifth">
+        <p>I am Christian Iwanejko, born in Nottingham, United Kingdom. I have achieved 2:2 for my bachelors in Computing and have a background in graphic design. I have covered HTML, CSS and JavaScript over the courses both at University and self-study. </p>
+        <h2>About Me</h2>
+      </div>
+    </div>
+    
+    <div id="projects">
+    </div>
+
+    </div>
+    <script type="text/javascript">
+      const toggleButton = document.querySelector('.toggle-button')
+      const navLinks = document.querySelector('.nav-links')
+      window.onload=function(){
+        toggleButton.addEventListener('click',()=>{
+        navLinks.classList.toggle('active');
+        console.log('clicked')
+      })
+      }
+      
+    </script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed('.auto-type',{
+        strings: ['Web Developer','Developer','UI/UX Designer'],
+        typeSpeed: 125,
+        backSpeed: 75,
+        loop: true
+      })
+    </script>
+  </body>
+</html>
