@@ -254,7 +254,6 @@ h1 {
 
     .nav-links.active{
         display: block;
-
     }
 
     #aboutMe {
@@ -267,6 +266,11 @@ h1 {
         grid-row: 0 / 5;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2, 1fr)
+    }
+
+    #about1 {
+        grid-row: 1;
+        grid-column: 1;
     }
 
     #main {
