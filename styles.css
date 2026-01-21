@@ -147,13 +147,14 @@ h1 {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-auto-rows: auto; /* or auto */
     position: relative;
     color: black;
     gap: 8em;
 }
 
 .project-card {
+    min-height: 500px;
     width: 100%;
     height: 100%;
     margin: 16px;
@@ -180,6 +181,10 @@ h1 {
 
 #calculatorimg {
     background-image: url('images/calculatorimg.png');
+}
+
+#battleshipimg{
+    background-image: url('images/battleshipsimg.png');
 }
 
 .project-card {
