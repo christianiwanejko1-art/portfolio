@@ -190,10 +190,12 @@ h1 {
     background-image: url('images/battleshipsimg.png');
 }
 
-
 #kanbanimg {
     background-image: url('images/kanbanimg.png');
 }
+
+
+
 .project-card {
   transition: transform 0.2s ease;
 }
