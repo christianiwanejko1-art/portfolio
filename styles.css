@@ -151,6 +151,7 @@ h1 {
     position: relative;
     color: black;
     gap: 8em;
+    margin-bottom: 124px;
 }
 
 .project-card {
@@ -163,6 +164,7 @@ h1 {
 
 .projectImg {
     background-size: cover;
+    background-position: center;
     width: 100%;
     height: 100%;
     min-height: 500px;
@@ -188,6 +190,10 @@ h1 {
     background-image: url('images/battleshipsimg.png');
 }
 
+
+#kanbanimg {
+    background-image: url('images/kanbanimg.png');
+}
 .project-card {
   transition: transform 0.2s ease;
 }
